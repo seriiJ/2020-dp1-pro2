@@ -1,0 +1,386 @@
+		html{font-family: 'Noto Serif KR', serif; scroll-behavior: smooth; }
+			body,img,h1,h2,section,p,footer{margin:0;
+							 max-width: 100%; line-height: 1.8;}
+			h1{font-weight: 200; font-size: 2em; margin-top: 20px; margin-bottom: 20px;}
+			p{font-weight: 200;font-size: .9em}
+			footer{width: 1000px; margin: auto; margin-top: 350px; font-size: .9em; line-height: 1.8}
+			section{width: 1000px;background:white; margin: auto; display: flex;position: relative; height: auto;}
+			ol,li,ul,a,nav,nav a{margin: 0; padding: 0}
+			nav{
+				width: 100%; 
+				height: 44px;  
+				border-top: .5px solid lightgray;border-bottom: .5px solid lightgray;
+				height: 44px;
+				position: sticky;
+				background:white; z-index: 40}
+			nav ul{
+				width: 100%;
+				height: 44px;
+				float:right;
+		    	margin-left: 100px;}
+			nav ul li{
+				list-style-type: none; 
+				width: 14.2%;
+				height:44px;
+				text-align: center; 
+				line-height:44px;
+				float: left;}
+			nav ul li a{display: block;
+					text-decoration:none;
+					font-size: .8em;
+					color: gray;}	
+			a:hover{color: black;transition: all 1s;font-weight: 500}	
+			.sticky {position: -webkit-sticky; /* 사파리 브라우저 지원 */position: sticky;top: 0px;}
+			.cbox{background: white;width: 100%;margin-top: 55px; border-style: solid; border-width: 2px; border-color: darkgray;}
+			.bg-header{background: url(../img/bg1.png);background-size: cover; background-repeat: no-repeat;background-attachment: fixed; max-width: 100%; height: 550px}
+			.bg-header2{background: url(../img/ex.jpg);display:block; background-size: 100%; background-repeat: no-repeat;background-attachment: static; max-width: 100%; height: 550px}
+			.ft1{background: url(../img/ft1.jpg);background-size: cover; background-repeat: no-repeat;background-attachment: fixed; max-width: 100%; height: 300px}
+			.dt1{background: url(../img/dt.jpg);background-size: 100%; background-repeat: no-repeat;background-attachment: static; max-width: 100%; height: 424px;}
+			.htd{background: url(../img/htd.jpg);background-size: 100%; background-repeat: no-repeat;background-attachment: static; max-width: 100%; height: 777px;}
+			#test_btn1{ border-top-left-radius: 5px; 
+				border-bottom-left-radius: 5px; 
+				margin-right:-2.5px;
+			} 
+			#test_btn2{ border-top-right-radius: 5px; 
+				border-bottom-right-radius: 5px; 
+				margin-left:-2.5px; 
+			} 
+			#btn_group button{ border: 1px solid gray; 
+				background-color: rgba(0,0,0,0); 
+				color: darkgray; 
+				padding: 5px; 
+				width: 245px; 
+				margin-top: 20px;
+			}
+			#btn_group button:hover{ color:white; 
+				background-color: darkgray; }
+			.row{
+				width: 1000px; 
+				margin: auto; 
+				z-index: 20; position: relative;
+			}
+			.in{display: inline-block;
+			}
+			.col-1{
+				width: 490px; 
+				background: white; 
+				margin: 5px;
+			}
+			.col-2{
+				width: 480px; 
+				background: white; 
+				margin: 5px;
+			}
+			.col-3{
+				width: 100%; 
+				background:#978280;
+				margin: 5px;
+			}
+			.col-4{
+				width: 395px; 
+				padding-right: 50px;
+				background:white;
+				margin: 5px;
+			}
+			.col-5{
+				width: 1000px; 
+				background:white;
+			}
+			.col-6{
+				width: 430px; 
+				height: 175px;
+				background:#e2dcdc;
+			}
+			.col-7{
+				width: 430px; 
+				height: 165px;
+				background:#e2dcdc;
+			}
+			.col-8{
+				width: 175px; 
+				height: 350px;
+				background:#e2dcdc;
+			}
+			.col-9{
+				width: 410px; 
+				height: 165px;
+				background:#e2dcdc;
+			}
+			.col-10{
+				width: 600px; 
+			}
+			.col-11{
+				width: 400px; 
+			}
+			.abcontainer{
+				margin:auto;
+			}
+			.abcontainer2{
+				margin:auto;
+				display: flex;
+			}
+			.h1text{
+				display: inline-block;position: relative;
+				font-weight: 200; 
+				font-size: 2em; 
+				word-spacing: -1px;
+				letter-spacing: 0px; 
+				opacity: none;
+			}
+			.p1text{
+				display: inline-block;position: relative;
+				font-weight: 200;
+				font-size: .9em;
+				word-spacing: -1px;
+				letter-spacing: 0px; 
+				opacity: none;
+			}
+			.p1text2{
+				display: inline-block;position: relative;
+				font-weight: 200;
+				font-size: 1.1em;
+				word-spacing: -1px;
+				letter-spacing: 1.9px; 
+				opacity: none;
+				line-height: 2;
+				writing-mode: vertical-rl;
+			}
+			.p1text3{
+				display: inline-block;position: relative;
+				font-weight: 300;
+				font-size: 1.25em;
+				word-spacing: -1px;
+				letter-spacing: 1.9px; 
+				opacity: none;
+				line-height: 2;
+				writing-mode: vertical-rl;}
+			.p1text4{
+				display: inline-block;position: relative;
+				font-weight: 300;
+				font-size: 1.4em;
+				word-spacing: -1px;
+				letter-spacing: 1.9px; 
+				opacity: none;
+				line-height: 2;
+				writing-mode: vertical-rl;}
+			.p1text5{
+				display: inline-block;position: relative;
+				font-weight: 300;
+				font-size: 1.1em;
+				word-spacing: -1px;
+				letter-spacing: 1px; 
+				opacity: none;
+				line-height: 1.7;
+				}
+			.p1text6{
+				display: inline-block;position: relative;
+				font-weight: 500;
+				font-size: 1.4em;
+				word-spacing: -1px;
+				letter-spacing: 1.9px; 
+				opacity: none;
+				line-height: 2;}	
+			#absol1{
+				position: absolute;
+				left: 0px
+			}
+			#absol2{
+				position: absolute;
+				left: 60px;
+				top:37px;
+			}
+			#absol3{
+				position: absolute;
+				left: 62px;
+				top:125px;
+			}
+			#absol4{
+				position: absolute;
+				right: 0px
+			}
+			#absol5{
+				position: absolute;
+				right: 70px;
+				bottom:-90px;
+			}
+			#absol6{
+				position: absolute;
+				left:210px;
+				top:-500px;
+			}
+			#absol7{
+				position: absolute;
+				left: 190px;
+				top:-510px;
+			}
+			#absol8{
+				position: absolute;
+				left:450px;
+				top:-500px;
+			}
+			#absol9{
+				position: absolute;
+				left: 558px;
+				top:-510px;
+			}
+			#absol10{
+				position: absolute;
+				right: 0px;
+				top:0px;
+			}
+			#absol11{
+				position: absolute;
+				right: 90px;
+				top:125px;
+			}
+			#absol12{
+				position: absolute;
+				left: 0px;
+				top:500px;
+			}
+			#absol13{
+				position: absolute;
+				right: 90px;
+				top:680px;
+			}
+			#absol14{
+				position: absolute;
+				right: 200px;
+				top:1215px;
+			}
+			#absol15{
+				position: absolute;
+				left:0px;
+				top:125px;
+			}
+			#absol16{
+				position: absolute;
+				left:300px;
+				top:460px;
+			}
+			#absol17{
+				position: absolute;
+				right:50px;
+				top:130px;
+			}
+			#absol18{
+				position: absolute;
+				right:0px;
+				top:830px;
+			}
+			#absol19{
+				position: absolute;
+				right:80px;
+				top:120px;
+			}
+			#absol20{
+				position: absolute;
+				right:30px;
+				top:0px;
+			}
+			#absol21{
+				position: absolute;
+				right:0px;
+				bottom:-730px;
+			}
+			#absol22{
+				position: absolute;
+				right:60px;
+				top:115px;
+			}
+			#absol23{
+				position: absolute;
+				left:62px;
+				top:155px;
+			}
+			#absol24{
+				position: absolute;
+				left:0px;
+				top:390px;
+			}
+			#absol25{
+				position: absolute;
+				left:0px;
+				top:1156px;
+			}
+			#absol26{
+				position: absolute;
+				left:0px;
+				top:1125px;
+			}
+			#absol27{
+				position: absolute;
+				right:100px;
+				top:200px;
+			}
+			#absol28{
+				position: absolute;
+				left:100px;
+				top:600px;
+			}
+			#absol29{
+				position: absolute;
+				right:100px;
+				top:600px;
+			}
+			#absol30{
+				position: absolute;
+				left:100px;
+				top:200px;
+			}
+			#absol31{
+				position: absolute;
+				left:400px;
+				top:100px;
+			}
+			#absol32{
+				position: absolute;
+				left:400px;
+				top:80px;
+			}
+			#absol33{
+				position: absolute;
+				left:423px;
+				top:150px;
+			}
+			a#hv1 {
+				display:inline-block;
+				width:400px;
+				height:400px;
+				background:url('../img.hv1.jpg') no-repeat;
+			}
+
+			a#hv12:hover{
+  				background:url('../img.hv12.jpg') no-repeat;
+			}
+			a#hv2 {
+				display:inline-block;
+				width:400px;
+				height:400px;
+				background:url('../img.hv2.jpg') no-repeat;
+			}
+
+			a#hv2:hover{
+  				background:url('../img.hv22.jpg') no-repeat;
+			}
+			a#hv3 {
+				display:inline-block;
+				width:400px;
+				height:400px;
+				background:url('../img.hv3.jpg') no-repeat;
+			}
+
+			a#hv3:hover{
+  				background:url('../img.hv32.jpg') no-repeat;
+			}
+			a#hv4 {
+				display:inline-block;
+				width:400px;
+				height:400px;
+				background:url('../img.hv4.jpg') no-repeat;
+			}
+
+			a#hv4:hover{
+  				background:url('../img.hv42.jpg') no-repeat;
+			}
+		</style>
